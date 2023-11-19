@@ -1,0 +1,25 @@
+import React, { useState } from 'react';
+
+// Componente para mostrar los lugares de eventos
+const EventPlaces = () => {
+  return (
+    <div>
+      <h2>Lugares de Eventos</h2>
+      {/* Aquí puedes mostrar la lista de lugares de eventos */}
+    </div>
+  );
+};
+
+// Componente para mostrar los planners
+const Planners = () => {
+  return (
+    <div>
+      <h2>Planners</h2>
+      {/* Aquí puedes mostrar la lista de planners */}
+    </div>
+  );
+};
+
+// Componente principal que muestra la interfaz de la boda
+const WeddingInterface = ({ clients }) => {
+  const [currentClientIndex, setCurrentClientIndex] = useState(0);
