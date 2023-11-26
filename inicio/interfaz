@@ -5,7 +5,7 @@ const EventPlaces = () => {
   return (
     <div>
       <h2>Lugares de Eventos</h2>
-      {/* Aquí puedes mostrar la lista de lugares de eventos */}
+ 
     </div>
   );
 };
@@ -15,7 +15,7 @@ const Planners = () => {
   return (
     <div>
       <h2>Planners</h2>
-      {/* Aquí puedes mostrar la lista de planners */}
+      
     </div>
   );
 };
